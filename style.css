@@ -1,0 +1,31 @@
+body {
+    background-color: #292524;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+}
+h6 {
+    color: rgb(70, 145, 70);
+    margin-bottom: 1.5rem;
+}
+canvas {
+    /* box-shadow: inset 0 5cap 0 #443d3b ; */
+    border: 2px solid rgb(146, 76, 50);
+
+}
+button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    background: lime;
+    border: 2px solid #aca2a0;
+    color: rgb(56, 79, 56);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+}
